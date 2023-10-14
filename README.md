@@ -33,7 +33,7 @@ Atlast , free the host and device memory then reset the device and check for res
                        Reg no : 212221230081
 
 ### Common.h :
-      ```
+```
 #include <stdio.h>
 
 #ifndef _COMMON_H
@@ -110,7 +110,7 @@ inline double seconds()
 
 #endif // _COMMON_H
 
-      ```
+```
 ### unrolling 2,unrolling 4, unrooling 6,unrolling 8 and unrolling 16 , launching kernel:
 ```
 #include <cuda_runtime.h>
